@@ -61,6 +61,7 @@ class SSRadioButtonsController :NSObject
                 aButton.selected = false
             }
             sender.selected = true
+            currentSelectedButton = sender
         }
     }
 
